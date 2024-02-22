@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #6f6219;
+    text-align: center;
+}
+
+p.ribotas-plotis {
+    width: 400px;
+}
+
+p.ribotas-plotis span {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.turinys {
+    display: flex;;
+}
+
+.filtrai {
+    padding-right: 50px;
+}
+
+.filtrai ul {
+    margin: 0;
+}
+
+.filtrai ul li {
+    margin-bottom: 15px;
+}
+
+.prekes {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+.preke {
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.preke img {
+    width: 100%;
+}
+
+.preke .top-content {
+    width: 100%;
+}
+
+.preke .bottom-content {
+    width: 100%;
+}
+
+.preke h4 {
+    width: 100%;
+}
+
+.preke p {
+    width: 100%;
+}
+
+.prekes .preke:nth-child(1) {
+    /* flex-shrink: 0; */
+}
+
+.prekes .preke:nth-child(1) {
+    /* order: 20; */
+}
+
+.prekes .preke:nth-child(2) {
+    /* order: 21; */
+}
+
+.prekes .preke:nth-child(3) {
+    /* order: -10; */
+}
+
+.prekes .preke:nth-child(4) {
+    /* order: 1000000; */
+}
+

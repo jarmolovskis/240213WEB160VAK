@@ -1,0 +1,74 @@
+/* Font'o / Šrifto importavimas į puslapį per CSS'ą, kad galėtume naudoti jo font-family. */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #0d5a2b;
+    background-color: #cece90;
+    text-align: center;
+    font-family: Yellowtail, cursive;
+}
+
+h1:hover {
+    background-color: red;
+}
+
+p {
+    color: blue;
+    background-color: khaki;
+    /* text-align: justify; */
+}
+
+/* Id selektorius svarbiausias. Jo svaris didžiausias. */
+#svarbus-sarasas {
+    background-color: rgb(45, 48, 0);
+}
+
+/* Klasės selektorius mažiau svarbus. Jo svaris mažesnis už id. */
+.sarasas {
+    background-color: blue;
+}
+
+/* Elemento pavadinimo selektorius mažiausiai svarbus. Jo svaris mažiausias. */
+ul {
+    background-color: green;
+}
+
+.raudonas-tekstas {
+    color: red;
+}
+
+.pilkas-fonas {
+    background-color: grey;
+}
+
+li#kazkoks.raudonas-tekstas.pilkas-fonas {
+    font-size: 40px;
+}
+
+div.antras p,
+div.pirmas div.pirmas-vidinis p {
+    background-color: transparent;
+}
+
+div.antras p {
+    color: green;
+}
+
+div.pirmas div.pirmas-vidinis p {
+    color: red;
+}
+
+/* stiliaus savybės paveldimumo pavyzdys. Išsicentruoja visi div.pirmas viduje esantys paragrafai. */
+div.pirmas {
+    text-align: center;
+}
+
+p span {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}

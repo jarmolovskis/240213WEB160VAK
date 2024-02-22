@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokumento pavadinimas</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Taip rašomas komentaras: -->
+    <!-- Ctrl + / -->
+
+    <!-- Automatiškas kodo formatavimas: -->
+    <!-- Shift + Alt + F -->
+
+    <a href="#nuscrollinimas">Trečia atraštė</a>
+
+    <!-- Čia yra antraštės (skirtingų svarbumų) -->
+    <h1>Kazkoks antrastes tekstas</h1>
+
+    <!-- Random paveikslėlis iš picsum photos (galima koreguoti dydį) -->
+    <!-- <img src="https://picsum.photos/500/250" alt="" /> -->
+
+    <!-- Lokalus paveikslėlis iš aplankalo images -->
+    <img
+      src="images/mountains.jpg"
+      alt="Kalnai"
+      title="Papildoma informacija apie paveikslėlį"
+    />
+
+    <!-- Čia yra paragrafas -->
+    <p>
+      Lorem ipsum <b>dolor</b> sit amet, consectetur adipisicing elit. <br />
+      Tenetur excepturi aliquid est repudiandae delectus adipisci. Quis amet
+      suscipit minus quia? Quia, labore alias nemo nobis dolorem culpa neque
+      sequi vero!
+    </p>
+
+    <p>
+      Lorem ipsum <b>dolor</b> sit amet, consectetur adipisicing elit. <br />
+      Tenetur excepturi aliquid est repudiandae delectus adipisci. Quis amet
+      suscipit minus quia? Quia, labore alias nemo nobis dolorem culpa neque
+      sequi vero!
+    </p>
+
+    <table>
+      <tr>
+        <th>Tesktas 1</th>
+        <th>Tesktas 2</th>
+        <th>Tesktas 3</th>
+        <th rowspan="3">Tesktas 4</th>
+      </tr>
+      <tr>
+        <td>Tesktas 1</td>
+        <td>Tesktas 2</td>
+        <td>Tesktas 3</td>
+      </tr>
+      <tr>
+        <td>Tesktas 1</td>
+        <td colspan="2">Tesktas 2</td>
+      </tr>
+    </table>
+
+    <h2>Kazkoks antrastes tekstas</h2>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate iusto
+      in aliquam? Deserunt possimus praesentium commodi recusandae autem quae.
+      Eligendi ex nisi unde iusto nobis dignissimos aut adipisci reprehenderit
+      debitis!
+    </p>
+
+    <p>
+      Lorem ipsum <b>dolor</b> sit amet, consectetur adipisicing elit. <br />
+      Tenetur excepturi aliquid est repudiandae delectus adipisci. Quis amet
+      suscipit minus quia? Quia, labore alias nemo nobis dolorem culpa neque
+      sequi vero!
+    </p>
+
+    <form action="">
+      <fieldset>
+        <legend>Eksperimentinė forma:</legend>
+
+        <label for="vartotojovardas">Vartotojo vardas:</label>
+        <input name="username" id="vartotojovardas" type="text" />
+
+        <br /><br />
+
+        <label for="email">El. paštas:</label>
+        <input name="email" id="email" type="tel" required />
+
+        <br /><br />
+
+        <span>Gender:</span>
+        <br />
+        <label for="male">Male:</label>
+        <input name="gender" id="male" type="radio" />
+
+        <label for="female">Female:</label>
+        <input name="gender" id="female" type="radio" />
+
+        <label for="other">Other:</label>
+        <input name="gender" id="other" type="radio" />
+
+        <br /><br />
+
+        <select name="miestas" id="miestas">
+          <option value="vilnius">Vilnius</option>
+          <option value="kaunas">Kaunas</option>
+          <option value="klaipeda">Klaipėda</option>
+        </select>
+
+        <br /><br />
+
+        <label for="more">Papildoma informacija</label><br />
+        <textarea name="more" id="more" cols="50" rows="5">
+Čia įrašykite papildomą informaciją...</textarea
+        >
+
+        <br /><br />
+
+        <label for="sutinku">Sutinku:</label>
+        <input name="consent" id="sutinku" type="checkbox" />
+
+        <!-- <input type="submit" value="Pateikti"> -->
+        <br /><br />
+        <button>Pateikti</button>
+      </fieldset>
+    </form>
+
+    <h3 id="nuscrollinimas">Trečia antraštė</h3>
+
+    <p>
+      Lorem ipsum <b>dolor</b> sit amet, consectetur adipisicing elit. <br />
+      Tenetur excepturi aliquid est repudiandae delectus adipisci. Quis amet
+      suscipit minus quia? Quia, labore alias nemo nobis dolorem culpa neque
+      sequi vero!
+    </p>
+
+    <p>
+      Lorem ipsum <b>dolor</b> sit amet, consectetur adipisicing elit. <br />
+      Tenetur excepturi aliquid est repudiandae delectus adipisci. Quis amet
+      suscipit minus quia? Quia, labore alias nemo nobis dolorem culpa neque
+      sequi vero!
+    </p>
+
+    <!-- Nerikiuotas sąrašas -->
+    <ul>
+      <li>Sąrašo punktas 1</li>
+      <li>Sąrašo punktas 2</li>
+      <li>Sąrašo punktas 3</li>
+    </ul>
+
+    <!-- Rikiuotas sąrašas su atributais -->
+    <ol type="I" start="10" reversed="reversed">
+      <li>Sąrašo punktas 1</li>
+      <li>Sąrašo punktas 2</li>
+      <li>Sąrašo punktas 3</li>
+    </ol>
+
+    <a target="_blank" href="https://google.com">Google</a>
+
+    <a href="puslapiai/papildomas.html">Papildomas</a>
+  </body>
+</html>
