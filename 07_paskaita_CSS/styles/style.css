@@ -47,6 +47,10 @@ div.article {
     background-color: yellow;
 }
 
+div.article .apvalus {
+    border-radius: 50%;
+}
+
 div.footer {
     grid-area: footer;
     background-color: var(--melyna);
