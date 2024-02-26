@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 700px;
+    background-color: blue;
+    /* ../ reškia žingsnį atgal direktorijoje */
+    background-image: url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header .overlay {
+    background-color: rgba(6, 6, 66, 0.5);
+    height: 100%;
+}
+
+header .container {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, 0);
+}
+
+header .container nav {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav img.logo {
+    width: 150px;
+}
+
+header .container nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .container nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header .container nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .container .title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    color: white;
+    text-align: center;
+}
+
+header .container .title h1 {
+    font-size: 64px;
+}
+
+header .container .title h5 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .title h5 .h-line {
+    border-bottom: 1px solid white;
+    width: 100px;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header .container .down-arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%, 0);
+}
+
+header .container .down-arrow img {
+    width: 30px;
+}
