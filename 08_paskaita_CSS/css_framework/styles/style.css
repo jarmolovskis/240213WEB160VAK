@@ -1,0 +1,23 @@
+.red {
+    background-color: hsl(235, 100%, 50%);
+    background-color: hsl(235, 100%, 57.14%);
+    background-color: hsl(235, 100%, 64.28%);
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+.row .col {
+    margin-bottom: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.row .col .col-gap {
+    overflow: hidden;
+}
+
+.my-image {
+    width: 200px;
+}
