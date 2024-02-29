@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Užduotis - 2.07 HTML</title>
+  </head>
+  <body>
+    
+    <h1>Registacijos forma</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>STUDENTAS</legend>
+
+        <table>
+          <tr>
+            <td>
+              <label for="vardas">Vardas:</label>
+            </td>
+            <td>
+              <input type="text" name="vardas" id="vardas" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="email">El. paštas</label>
+            </td>
+            <td>
+              <input type="email" name="email" id="email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="gimimo_data">Gimimo data:</label>
+            </td>
+            <td>
+              <input type="date" name="gimimo_data" id="gimimo_data" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="adresas">Adresas:</label>
+            </td>
+            <td>
+              <input type="text" name="adresas" id="adresas" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <label for="informacija">Papildoma informacija:</label>
+        <br />
+        <br />
+        <textarea
+          name="informacija"
+          id="informacija"
+          cols="130"
+          rows="10"
+        ></textarea>
+      </fieldset>
+
+      <h1>Jūsų pomėgiai</h1>
+
+      <fieldset>
+        <legend>PASIRINKITE SAVO POMĖGIUS</legend>
+
+        <p>Jūsų mėgstamiausias sportas?</p>
+
+        <label for="krepsinis">Krepšinis</label>
+        <input
+          type="checkbox"
+          name="pomegis"
+          value="krepsinis"
+          id="krepsinis"
+        />
+        <label for="futbolas">futbolas</label>
+        <input
+          type="checkbox"
+          name="pomegis"
+          value="futbolas"
+          id="futbolas"
+        /><br />
+        <label for="tinklinis">Tinklinis</label>
+        <input
+          type="checkbox"
+          name="pomegis"
+          value="tinklinis"
+          id="tinklinis"
+        />
+        <label for="begimas">Bėgimas</label>
+        <input
+          type="checkbox"
+          name="pomegis"
+          value="begimas"
+          id="begimas"
+        /><br />
+        <label for="regbis">Regbis</label>
+        <input type="checkbox" name="pomegis" value="regbis" id="regbis" />
+        <label for="boksas">Boksas</label>
+        <input
+          type="checkbox"
+          name="pomegis"
+          value="boksas"
+          id="boksas"
+        /><br /><br />
+
+        <label for="zanras">Jūsų mėgstamiausias filmo žanras</label>
+        <select name="zanras" id="zanras">
+          <option value="disubo">Siaubo</option>
+          <option value="komedija">Komedija</option>
+          <option value="romantinis">Romantinis</option>
+          <option value="veiksmo">Veiksmo</option>
+        </select>
+
+        <p>Ar jums patinka keliauti?</p>
+        <label for="ne">Ne</label>
+        <input
+          type="radio"
+          name="ar_jums_patinka_keliauti"
+          value="ne"
+          id="ne"
+        />
+        <label for="galbut">Galbut</label>
+        <input
+          type="radio"
+          name="ar_jums_patinka_keliauti"
+          value="galbut"
+          id="galbut"
+        />
+        <label for="taip">Taip</label>
+        <input
+          type="radio"
+          name="ar_jums_patinka_keliauti"
+          value="taip"
+          id="taip"
+        />
+        <br />
+        <br />
+        <button>Registruotis</button>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
