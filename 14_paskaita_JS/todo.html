@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo aplikacija</title>
+
+    <link rel="stylesheet" href="styles/todo.css">
+</head>
+<body>
+
+    <form action="">
+        <label for="task-input">Įrašykite savo kitą užduotį:</label>
+        <input id="task-input" type="text" name="task-input">
+        <button id="add-task">Pridėti</button>
+    </form>
+
+    
+    <ul id="tasks">
+        <li>
+            <input type="checkbox"><span>Išnešti šiukšles</span><button>x</button>
+        </li>
+        <li>
+            <input type="checkbox"><span>Nupirkti pieno</span><button>x</button>
+        </li>
+        <li>
+            <input type="checkbox"><span>Pasimokyti web'o</span><button>x</button>
+        </li>
+    </ul>
+    
+    <script src="scripts/todo.js"></script>
+</body>
+</html>

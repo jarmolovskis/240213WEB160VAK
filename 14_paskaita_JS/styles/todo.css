@@ -1,0 +1,8 @@
+input:checked + span {
+    text-decoration: line-through;
+}
+
+ul#tasks {
+    list-style: none;
+    padding: 0;
+}
