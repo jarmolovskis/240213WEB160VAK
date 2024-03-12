@@ -1,0 +1,13 @@
+div#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#products div {
+    width: 25%;
+    text-align: center;
+}
+
+div#products div img {
+    height: 200px;
+}
